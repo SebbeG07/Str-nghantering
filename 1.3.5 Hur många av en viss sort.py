@@ -1,0 +1,5 @@
+halloween=input ("Skriv en text: ")
+ghost=input ("Skriv ett tecken som ska räknas: ")
+hallow=halloween.lower()
+ghostlow=ghost.lower()
+print ("Din mening har" ,(hallow.count (ghostlow)), ghostlow)
